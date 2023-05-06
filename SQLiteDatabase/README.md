@@ -332,8 +332,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 ```
 
 ## OUTPUT
-![](1.png)
 ![](2.png)
+![](1.png)
 ![](3.png)
 
 
