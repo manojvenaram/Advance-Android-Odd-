@@ -100,6 +100,16 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
 
     }
 }
+## ManifestFile.xml
+```
+        <service
+            android:name=".MultiplicationService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.example.aidl.MathService" />
+            </intent-filter>
+        </service>
 ```
 ## MultiplicationService.java
 ```
